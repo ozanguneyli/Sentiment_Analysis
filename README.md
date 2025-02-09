@@ -18,8 +18,8 @@ The project is compatible with **Python 3.8+**. To install the required dependen
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/ozanguneyli/Sentiment_Analysis.git
-cd Sentiment_Analysis
+git clone https://github.com/ozanguneyli/Sentiment_Analyzer.git
+cd Sentiment_Analyzer
 ```
 
 ```bash
