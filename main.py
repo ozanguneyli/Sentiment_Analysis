@@ -28,7 +28,7 @@ start_time = time.time()
 # read the parquet file and load the embeddings
 
 batch_count = 0
-for batch in read_parquet_in_batches(r"C:\Users\ozang\turkish_sentiment_data.parquet", batch_size=128):
+for batch in read_parquet_in_batches(path_to_parquet_data, batch_size=128):
     print(f"processing batch {batch_count + 1}/{total_batches} ({(batch_count + 1) / total_batches * 100:.2f}%)")
     preprocessed_data = [preprocess_text(text) for text in batch['text']]
     analyzer.upload_embeddings(data=preprocessed_data, batch_size=128, collection_name='sentiment_collection',start_id = batch_count * 128)
