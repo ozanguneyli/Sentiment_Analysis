@@ -1,7 +1,7 @@
 # Sentiment Analysis and Semantic Search with Qdrant
 
 ## 📌 Project Description
-COGNITUSAI_CASE_STUDY is a Python library that processes text data, generates **embeddings**, and stores them in the **Qdrant** vector database for similarity search.
+a Python library that processes text data, generates **embeddings**, and stores them in the **Qdrant** vector database for similarity search.
 
 ## Features
 
