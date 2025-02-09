@@ -6,7 +6,7 @@ build-backend = "poetry.core.masonry.api"
 name = "project"
 version = "0.1.0"
 description = "A sentiment analysis library"
-authors = ["Ozan Güneyli <ozan.guneyli@etiya.com>"]
+authors = ["Ozan Güneyli <ozan.guneyli@outlook.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
